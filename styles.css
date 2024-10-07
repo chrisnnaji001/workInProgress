@@ -1,0 +1,310 @@
+/* General Page Styling */
+body {
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header-container {
+    background-color: #343a40;
+    padding: 20px;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.search-container {
+    gap: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+.carousel-inner img {
+    border-radius: 15px;
+}
+
+/* Card Section */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 15px 15px 0 0;
+}
+
+footer h5 {
+    color: #007bff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer .list-inline-item a {
+    color: #007bff;
+    font-size: 1.1rem;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+footer .list-inline-item a:hover {
+    color: #fff;
+}
+
+footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer form .form-control {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+footer form .btn {
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+footer form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    .search-container {
+        margin-bottom: 15px;
+    }
+
+    .nav-links {
+        justify-content: center;
+    }
+
+    .carousel-inner img {
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-text {
+        font-size: 0.85rem;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer form {
+        margin: 0 auto;
+    }
+
+    footer hr {
+        display: none;
+    }
+}
+
+
+/* Header Styling */
+.header-container {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.search-container input {
+    width: 250px;
+    margin-right: 10px;
+}
+
+/* Navbar Links */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+/* Carousel Styling */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .search-container input {
+        width: 150px;
+    }
+
+    .header-container {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-basis: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+/* General Page Styling and other sections remain the same */
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 15px 15px 0 0;
+}
+
+footer h5 {
+    color: #007bff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer .list-inline-item a {
+    color: #007bff;
+    font-size: 1.1rem;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+footer .list-inline-item a:hover {
+    color: #fff;
+}
+
+footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer form .form-control {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+footer form .btn {
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+footer form .btn:hover {
+    background-color: #0056b3;
+}
